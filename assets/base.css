@@ -2875,5 +2875,5 @@ details-disclosure > details {
 }
 
 .selector-wrapper .bcpo-simple .bcpo-default {
-  text-align: center;
+  text-align: center !important;
 }
