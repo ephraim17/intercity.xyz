@@ -152,12 +152,20 @@
               "heading": "Our Mission",
               "subtext": "<p>We aim to make it easier for people to travel to all 10 provinces in Zambia.<\/p>"
             }
+          },
+          "534790dc-9e60-451c-b792-88017da4fb12": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "main-menu"
+            }
           }
         },
         "block_order": [
           "link-list",
           "image",
-          "text"
+          "text",
+          "534790dc-9e60-451c-b792-88017da4fb12"
         ],
         "settings": {
           "color_scheme": "background-2",
