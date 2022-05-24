@@ -119,7 +119,7 @@
         "play_video": "Play video"
       },
       "quantity": {
-        "label": "Quantity",
+        "label": "Number of tickets",
         "input_label": "Quantity for {{ product }}",
         "increase": "Increase quantity for {{ product }}",
         "decrease": "Decrease quantity for {{ product }}"
@@ -248,7 +248,7 @@
         "product": "Product",
         "price": "Price",
         "total": "Total",
-        "quantity": "Quantity"
+        "quantity": "Number of tickets"
       },
       "update": "Update",
       "login": {
@@ -367,7 +367,7 @@
       "product": "Product",
       "sku": "SKU",
       "price": "Price",
-      "quantity": "Quantity",
+      "quantity": "Number of tickets",
       "total": "Total",
       "fulfilled_at_html": "Fulfilled {{ date }}",
       "track_shipment": "Track shipment",
@@ -433,11 +433,13 @@
         "items_unavailable_notice": "Some items are no longer available. Your reservation has been updated.",
         "removed_from_cart_notice": "Removed from reservation",
         "remove_from_cart_button_label": "Remove from reservation",
-        "go_back_to_cart_button_label": "Go back to my reservation"
+        "go_back_to_cart_button_label": "Go back to my reservation",
+        "quantity_column_header": "Number of tickets"
       },
       "order_summary": {
         "shopping_cart_label": "Reservation",
-        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">{{ code }}<\/strong> discount code isn't valid for the items in your reservation"
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">{{ code }}<\/strong> discount code isn't valid for the items in your reservation",
+        "quantity_label": "Number of tickets"
       },
       "failed_payment": {
         "payment_not_processed_text": "You haven't been charged. Return to your reservation to complete you booking.",
@@ -452,7 +454,10 @@
         "cart_updated_based_on_country": "Your reservation has been updated based on your country."
       },
       "thank_you": {
-        "return_to_store_link_label": "Continue booking"
+        "return_to_store_link_label": "Continue booking",
+        "fulfillment": {
+          "quantity_label": "Number of tickets"
+        }
       }
     },
     "notices": {
