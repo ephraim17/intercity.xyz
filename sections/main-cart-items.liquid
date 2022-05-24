@@ -87,18 +87,18 @@
                           <span data-ymq-item-key="{{ product.key }}" class='ymq_item_price'>{{ 'products.product.price.regular_price' | t }}</span>
                         </span>
                         <s class="cart-item__old-price product-option">
-                          <span data-ymq-item-key="{{ item.key }}" class='ymq_item_original_price'>{{- item.original_price | money -}}</span>
+                          <span data-ymq-item-key="{{ item.key }}" class='ymq_item_original_price'><span class="bcpo-cart-item-original-price" data-key="{{item.key}}">{{ item.original_price | money }}</span></span>
                         </s>
                         <span class="visually-hidden">
                           <span data-ymq-item-key="{{ product.key }}" class='ymq_item_price'>{{ 'products.product.price.sale_price' | t }}</span>
                         </span>
                         <strong class="cart-item__final-price product-option">
-                          <span data-ymq-item-key="{{ item.key }}" class='ymq_item_final_price'>{{ item.final_price | money }}</span>
+                          <span data-ymq-item-key="{{ item.key }}" class='ymq_item_final_price'><span class="bcpo-cart-item-price" data-key="{{item.key}}">{{ item.final_price | money }}</span></span>
                         </strong>
                       </div>
                     {%- else -%}
                       <div class="product-option">
-                        <span data-ymq-item-key="{{ item.key }}" class='ymq_item_original_price'>{{ item.original_price | money }}</span>
+                        <span data-ymq-item-key="{{ item.key }}" class='ymq_item_original_price'><span class="bcpo-cart-item-original-price" data-key="{{item.key}}">{{ item.original_price | money }}</span></span>
                       </div>
                     {%- endif -%}
 
@@ -161,19 +161,19 @@
                           </dt>
                           <dd>
                             <s class="cart-item__old-price price price--end">
-                              <span data-ymq-item-key="{{ item.key }}" class='ymq_item_original_line_price'>{{ item.original_line_price | money }}</span>
+                              <span data-ymq-item-key="{{ item.key }}" class='ymq_item_original_line_price'><span class="bcpo-cart-item-original-line-price" data-key="{{item.key}}">{{ item.original_line_price | money }}</span></span>
                             </s>
                           </dd>
                           <dt class="visually-hidden">
                             <span data-ymq-item-key="{{ product.key }}" class='ymq_item_price'>{{ 'products.product.price.sale_price' | t }}</span>
                           </dt>
                           <dd class="price price--end">
-                            <span data-ymq-item-key="{{ item.key }}" class='ymq_item_final_line_price'>{{ item.final_line_price | money }}</span>
+                            <span data-ymq-item-key="{{ item.key }}" class='ymq_item_final_line_price'><span class="bcpo-cart-item-line-price" data-key="{{item.key}}">{{ item.final_line_price | money }}</span></span>
                           </dd>
                         </dl>
                       {%- else -%}
                         <span class="price price--end">
-                          <span data-ymq-item-key="{{ item.key }}" class='ymq_item_original_line_price'>{{ item.original_line_price | money }}</span>
+                          <span data-ymq-item-key="{{ item.key }}" class='ymq_item_original_line_price'><span class="bcpo-cart-item-original-line-price" data-key="{{item.key}}">{{ item.original_line_price | money }}</span></span>
                         </span>
                       {%- endif -%}
 
@@ -251,19 +251,19 @@
                           </dt>
                           <dd>
                             <s class="cart-item__old-price price price--end">
-                              <span data-ymq-item-key="{{ item.key }}" class='ymq_item_original_line_price'>{{ item.original_line_price | money }}</span>
+                              <span data-ymq-item-key="{{ item.key }}" class='ymq_item_original_line_price'><span class="bcpo-cart-item-original-line-price" data-key="{{item.key}}">{{ item.original_line_price | money }}</span></span>
                             </s>
                           </dd>
                           <dt class="visually-hidden">
                             <span data-ymq-item-key="{{ product.key }}" class='ymq_item_price'>{{ 'products.product.price.sale_price' | t }}</span>
                           </dt>
                           <dd class="price price--end">
-                            <span data-ymq-item-key="{{ item.key }}" class='ymq_item_final_line_price'>{{ item.final_line_price | money }}</span>
+                            <span data-ymq-item-key="{{ item.key }}" class='ymq_item_final_line_price'><span class="bcpo-cart-item-line-price" data-key="{{item.key}}">{{ item.final_line_price | money }}</span></span>
                           </dd>
                         </dl>
                       {%- else -%}
                         <span class="price price--end">
-                          <span data-ymq-item-key="{{ item.key }}" class='ymq_item_original_line_price'>{{ item.original_line_price | money }}</span>
+                          <span data-ymq-item-key="{{ item.key }}" class='ymq_item_original_line_price'><span class="bcpo-cart-item-original-line-price" data-key="{{item.key}}">{{ item.original_line_price | money }}</span></span>
                         </span>
                       {%- endif -%}
 
@@ -333,3 +333,4 @@
 {% endschema %}
 
 <!-- GPO installed -->{% comment %}<!-- ymq option done -->{% endcomment %}
+<!-- bcpo done -->

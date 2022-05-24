@@ -22,7 +22,7 @@
               <div class="js-contents" {{ block.shopify_attributes }}>
                 <div class="totals">
                   <h3 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h3>
-                  <p class="totals__subtotal-value"><span  class='ymq_cart_total_price'>{{ cart.total_price | money_with_currency }}</span></p>
+                  <p class="totals__subtotal-value"><span  class='ymq_cart_total_price'><span class="bcpo-cart-original-total">{{ cart.total_price | money_with_currency }}</span></span></p>
                 </div>
 
                 <div>
@@ -143,3 +143,4 @@
   ]
 }
 {% endschema %}{% comment %}<!-- ymq option done -->{% endcomment %}
+<!-- bcpo done -->
