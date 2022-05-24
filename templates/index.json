@@ -33,16 +33,16 @@
         "row-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How does It work?",
+            "heading": "What is Inter-City?",
             "icon": "none",
-            "row_content": "<p>Present your booking and phone number to the conductor at the station<\/p>",
+            "row_content": "<p>Intercity is the cheapest and sometimes the only way to get to different parts of Zambia and other countries in the SADC region.<\/p>",
             "page": ""
           }
         },
         "row-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What payment methods can I use?",
+            "heading": "Low prices",
             "icon": "none",
             "row_content": "<p>MTN, Airtel, Zamtel, Visa and Mastercard<\/p>",
             "page": ""
@@ -74,7 +74,7 @@
         "row-4"
       ],
       "settings": {
-        "caption": "",
+        "caption": "Answering some of your most pressing questions",
         "heading": "FAQ",
         "heading_size": "h2",
         "heading_alignment": "center",
