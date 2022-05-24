@@ -33,44 +33,44 @@
         "row-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What is Inter-City?",
+            "heading": "What is inter-city.xyz?",
             "icon": "none",
-            "row_content": "<p>Intercity is the cheapest and sometimes the only way to get to different parts of Zambia and other countries in the SADC region.<\/p>",
-            "page": ""
-          }
-        },
-        "row-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Low prices",
-            "icon": "none",
-            "row_content": "<p>MTN, Airtel, Zamtel, Visa and Mastercard<\/p>",
+            "row_content": "<p>inter-city.xyz is the cheapest way to get to most parts of Zambia and other countries in the SADC region.<\/p>",
             "page": ""
           }
         },
         "row-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I buy multiple tickets?",
+            "heading": "Why should I use inter-city.xyz",
             "icon": "none",
-            "row_content": "<p>Yes<\/p>",
+            "row_content": "<p>With inter-city.xyz, you get to avoid the hassle of dealing with many co-boys that might charge you more than what you are supposed to pay for a ticket. <\/p>",
+            "page": ""
+          }
+        },
+        "row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What payment methods can I use?",
+            "icon": "none",
+            "row_content": "<p>MTN, Airtel, Zamtel, Visa and Mastercard<\/p>",
             "page": ""
           }
         },
         "row-4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How can I contact someone about my booking?",
+            "heading": "What bus operators can I use?",
             "icon": "none",
-            "row_content": "<p>You can use the live chat in the corner of your screen.<\/p>",
+            "row_content": "<p>With inter-city.xyz you can use all of the major bus operators that meet the minimum required standards.<\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "row-1",
-        "row-2",
         "row-3",
+        "row-2",
         "row-4"
       ],
       "settings": {
