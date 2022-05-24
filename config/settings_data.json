@@ -97,6 +97,8 @@
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
     "checkout_body_background_color": "#1f1f21",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_sidebar_background_color": "#1f1f21",
     "checkout_accent_color": "#e3fc02",
     "checkout_button_color": "#e3fc02",
     "sections": {
