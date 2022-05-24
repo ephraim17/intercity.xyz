@@ -2874,6 +2874,6 @@ details-disclosure > details {
   font-weight: var(--font-body-weight-bold);
 }
 
-#bcpo {
-  text-align: center !important;
+.gpo-label {
+  text-align: center;
 }
