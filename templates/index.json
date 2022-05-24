@@ -35,7 +35,7 @@
           "settings": {
             "heading": "What is inter-city.xyz?",
             "icon": "none",
-            "row_content": "<p>inter-city.xyz is the cheapest way to get to most parts of Zambia and other countries in the SADC region.<\/p>",
+            "row_content": "<p>inter-city.xyz is the cheapest way to get to all 10 provinces of Zambia and other countries in the SADC region.<\/p>",
             "page": ""
           }
         },
@@ -48,15 +48,6 @@
             "page": ""
           }
         },
-        "row-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What payment methods can I use?",
-            "icon": "none",
-            "row_content": "<p>MTN, Airtel, Zamtel, Visa and Mastercard<\/p>",
-            "page": ""
-          }
-        },
         "row-4": {
           "type": "collapsible_row",
           "settings": {
@@ -65,13 +56,22 @@
             "row_content": "<p>With inter-city.xyz you can use all of the major bus operators that meet the minimum required standards.<\/p>",
             "page": ""
           }
+        },
+        "row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What payment methods can I use?",
+            "icon": "none",
+            "row_content": "<p>MTN, Airtel, Zamtel, Visa and Mastercard<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "row-1",
         "row-3",
-        "row-2",
-        "row-4"
+        "row-4",
+        "row-2"
       ],
       "settings": {
         "caption": "Answering your most pressing questions",
