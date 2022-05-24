@@ -3,7 +3,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Book a trip",
+        "title": "Buy a ticket",
         "heading_size": "h2",
         "description": "<p>What mode of transport would you like to use?<\/p>",
         "show_description": false,
