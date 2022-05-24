@@ -96,6 +96,7 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_transparent.png",
     "checkout_logo_position": "center",
     "checkout_body_background_color": "#1f1f21",
     "checkout_input_background_color_mode": "transparent",
