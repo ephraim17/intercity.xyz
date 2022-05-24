@@ -7,7 +7,7 @@
       "login_form_password_placeholder": "Your password",
       "login_form_error": "Wrong password!",
       "login_form_submit": "Enter",
-      "admin_link_html": "Are you the store owner? <a href=\"/admin\" class=\"link underlined-link\">Log in here</a>",
+      "admin_link_html": "Are you the store owner? <a href=\"\/admin\" class=\"link underlined-link\">Log in here<\/a>",
       "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
     },
     "social": {
@@ -40,7 +40,7 @@
     },
     "cart": {
       "view": "View my cart ({{ count }})",
-      "item_added": "Item added to your cart"
+      "item_added": "Item added to your reservation"
     },
     "share": {
       "close": "Close share",
@@ -102,7 +102,7 @@
   },
   "products": {
     "product": {
-      "add_to_cart": "Add to cart",
+      "add_to_cart": "Add to reservation",
       "choose_options": "Choose options",
       "choose_product_options": "Choose options for {{ product_name }}",
       "description": "Description",
@@ -128,8 +128,8 @@
         "view_store_info": "View store information",
         "check_other_stores": "Check availability at other stores",
         "pick_up_available": "Pickup available",
-        "pick_up_available_at_html": "Pickup available at <span class=\"color-foreground\">{{ location_name }}</span>",
-        "pick_up_unavailable_at_html": "Pickup currently unavailable at <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_available_at_html": "Pickup available at <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Pickup currently unavailable at <span class=\"color-foreground\">{{ location_name }}<\/span>",
         "unavailable": "Couldn't load pickup availability",
         "refresh": "Refresh"
       },
@@ -148,7 +148,7 @@
       "xr_button": "View in your space",
       "xr_button_label": "View in your space, loads item in augmented reality window",
       "include_taxes": "Tax included.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping</a> calculated at checkout."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout."
     },
     "modal": {
       "label": "Media gallery"
@@ -201,7 +201,7 @@
       "search_for": "Search for “{{ terms }}”"
     },
     "cart": {
-      "cart": "Cart"
+      "cart": "Reservations"
     },
     "contact": {
       "form": {
@@ -230,19 +230,19 @@
       }
     },
     "cart": {
-      "title": "Your cart",
-      "caption": "Cart items",
+      "title": "Your reservations",
+      "caption": "Reservation items",
       "remove_title": "Remove {{ title }}",
       "subtotal": "Subtotal",
       "new_subtotal": "New subtotal",
       "note": "Order special instructions",
       "checkout": "Check out",
-      "empty": "Your cart is empty",
-      "cart_error": "There was an error while updating your cart. Please try again.",
-      "cart_quantity_error_html": "You can only add {{ quantity }} of this item to your cart.",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
+      "empty": "Your reservation is empty",
+      "cart_error": "There was an error while updating your reservation. Please try again.",
+      "cart_quantity_error_html": "You can only add {{ quantity }} of this item to your reservation.",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
       "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
-      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
+      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
       "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
       "headings": {
         "product": "Product",
@@ -253,7 +253,7 @@
       "update": "Update",
       "login": {
         "title": "Have an account?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in</a> to check out faster."
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in<\/a> to check out faster."
       }
     },
     "footer": {
@@ -275,7 +275,7 @@
     "collection_template": {
       "empty": "No products found",
       "title": "Collection",
-      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">remove all</a>"
+      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">remove all<\/a>"
     },
     "video": {
       "load_video": "Load video: {{ description }}"
@@ -294,10 +294,10 @@
     }
   },
   "localization": {
-    "country_label": "Country/region",
+    "country_label": "Country\/region",
     "language_label": "Language",
     "update_language": "Update language",
-    "update_country": "Update country/region"
+    "update_country": "Update country\/region"
   },
   "customer": {
     "account": {
@@ -326,9 +326,9 @@
       "address1": "Address 1",
       "address2": "Address 2",
       "city": "City",
-      "country": "Country/region",
+      "country": "Country\/region",
       "province": "Province",
-      "zip": "Postal/ZIP code",
+      "zip": "Postal\/ZIP code",
       "phone": "Phone",
       "set_default": "Set as default address",
       "add": "Add address",
@@ -421,6 +421,52 @@
       "expired": "Expired",
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "cart": "Reservation",
+        "back_to_cart": "Return to reservation"
+      },
+      "stock": {
+        "items_unavailable_notice": "Some items are no longer available. Your reservation has been updated.",
+        "removed_from_cart_notice": "Removed from reservation",
+        "remove_from_cart_button_label": "Remove from reservation",
+        "go_back_to_cart_button_label": "Go back to my reservation"
+      },
+      "order_summary": {
+        "shopping_cart_label": "Reservation",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">{{ code }}<\/strong> discount code isn't valid for the items in your reservation"
+      },
+      "failed_payment": {
+        "payment_not_processed_text": "You haven't been charged. Return to your reservation to complete you booking.",
+        "return_to_cart_button_label": "Return to reservation"
+      },
+      "marketing": {
+        "unsubscribe": {
+          "description": "You won't receive any more reservation reminders from us."
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Your reservation has been updated based on your country."
+      }
+    },
+    "notices": {
+      "cart": {
+        "only_n_items_available": "You can only add {{ count }} {{ name }} to the resrvation.",
+        "too_many_items_in_cart": "You can't add more {{ name }} to the reservation.",
+        "all_items_in_cart": "All {{ count }} {{ name }} are in your reservation.",
+        "empty_update": "cannot update an empty reservation",
+        "generic_error": "Reservation error",
+        "too_many_line_items_error": "Your reservation can't contain more than {{ max }} items.",
+        "stock_problems_html": "One or more items are no longer available. We've provided and <a href='{{ link ||'>updated cart<\/a>.",
+        "changed": "Reservation changed",
+        "shipping_address_not_required": "This reservation does not require shipping"
+      }
+    },
+    "page_titles": {
+      "shopping_cart": "Your reservations"
     }
   }
 }
