@@ -111,7 +111,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Read our updated Privacy Policy",
+              "text": "Updated Terms of Service",
               "color_scheme": "accent-1",
               "link": "shopify:\/\/policies\/privacy-policy"
             }
