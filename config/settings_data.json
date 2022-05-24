@@ -111,7 +111,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Updated Terms of Service",
+              "text": "Terms Of Service",
               "color_scheme": "accent-1",
               "link": "shopify:\/\/policies\/terms-of-service"
             }
