@@ -2874,6 +2874,6 @@ details-disclosure > details {
   font-weight: var(--font-body-weight-bold);
 }
 
-.selector-wrapper .bcpo-simple .bcpo-default {
+#bcpo {
   text-align: center !important;
 }
