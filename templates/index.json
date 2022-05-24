@@ -81,7 +81,7 @@
         "layout": "row",
         "color_scheme": "background-2",
         "container_color_scheme": "accent-1",
-        "open_first_collapsible_row": false,
+        "open_first_collapsible_row": true,
         "image_ratio": "large",
         "desktop_layout": "image_first",
         "padding_top": 20,
