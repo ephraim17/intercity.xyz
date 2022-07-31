@@ -110,6 +110,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Terms Of Service",
               "color_scheme": "accent-1",
